@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main -entry point
+ * 
  * Return: 0 after printinting gunction
  * /
  int main(void)
