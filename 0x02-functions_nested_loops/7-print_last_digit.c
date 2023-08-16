@@ -9,12 +9,12 @@ if (n < 0)
 {
 i =  (-1 * (n % 10));
 _putchar(i);
-return ('i');
+return (i);
 }
 else
 {
 i = (n % 10);
 _putchar(i);
-return ('i');
+return (i);
 }
 }
