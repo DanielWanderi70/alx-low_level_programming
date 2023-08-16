@@ -8,13 +8,13 @@ int i;
 if (n < 0)
 {
 i =  (-1 * (n % 10));
-_putchar(ii);
-return (ii);
+_putchar(i + '0');
+return (i + '0');
 }
 else
 {
 i = (n % 10);
-_putchar(ii);
-return (ii);
+_putchar(i + '0');
+return (i + '0');
 }
 }
