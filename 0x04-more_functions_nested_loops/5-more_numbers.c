@@ -11,7 +11,13 @@ while(i<10)
 int c;
 for (c = 0;c <= 14;c++)
 {
-_putchar(c);
+	c == n;
+	while (n > 9)
+	{
+		putchar('1' + (c % 10);
+	}
+
+_putchar('0' + c);
 }
 i++;
 _putchar('\n');
