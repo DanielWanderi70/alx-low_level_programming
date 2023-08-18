@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * function: draws  diagonal line across
  * return 0
  */
