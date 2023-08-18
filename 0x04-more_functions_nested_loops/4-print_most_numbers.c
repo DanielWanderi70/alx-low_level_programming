@@ -7,7 +7,7 @@
 void print_most_numbers(void)
 {
 int c = 0;
-while (c != 4 && c != 5)
+while (c <= 9 && c != 4 && c != 5)
 {
 _putchar(c);
 c++
