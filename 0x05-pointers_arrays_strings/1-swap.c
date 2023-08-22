@@ -2,15 +2,12 @@
 /*
  * a pointer that swaps values
  */
+
 void swap_int(int *a, int *b)
 {
-	int f;
-	      
+int f;
 
-
-	
-	f = *a;
-	*a = *b;
-	f = *b;
-
+f = *a;
+*a = *b;
+*b = f;
 }
