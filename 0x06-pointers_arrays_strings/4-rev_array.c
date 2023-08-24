@@ -2,7 +2,7 @@
 /*
  * function reverses the position of arrays
  */
-void reverse_array(int *a, int n);
+void reverse_array(int *a, int n)
 {
 int i, j, t;
 
@@ -12,4 +12,4 @@ int i, j, t;
 		a[i] = a[j];
 		a[j] = t;
 	}
-}
+i}
