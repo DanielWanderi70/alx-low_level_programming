@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /*
  * description create_array
  * @size: name of variable
