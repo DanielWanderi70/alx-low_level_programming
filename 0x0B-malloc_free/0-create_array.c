@@ -8,16 +8,13 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	unsigned int i;
-if (size == 0)
-{
-	return (0);
-}
- char *arr =(char *)malloc(size * sizeof(char));
+	char *n = malloc(size);
 
-	for (i = 0; i < size; i++)
-	{
-	arr[i] = c;
-	return (arr);
-	}
+	if (size == 0 || n == 0)
+		return (0);
+
+	while (size--)
+		n[size] = c;
+
+	return (n);
 }
