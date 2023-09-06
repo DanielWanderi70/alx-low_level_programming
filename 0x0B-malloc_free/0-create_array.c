@@ -14,11 +14,10 @@ if (size == 0)
 {
 	return (0);
 }
-else
-{
+ char *arr =(char *)malloc(size * sizeof(char));
+
 	for (i = 0; i < size; i++)
 	{
-	char *arr =(char *)malloc(size * sizeof(char));
 	arr[i] = c;
 	return (arr);
 	}
